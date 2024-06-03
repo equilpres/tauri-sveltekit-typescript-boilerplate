@@ -1,0 +1,41 @@
+{
+	"identifier": "com.tauri-sveltekit-typescript-boilerplate.dev",
+	"productName": "tauri-sveltekit-typescript-boilerplate",
+	"version": "1.0.0",
+	"build": {
+		"beforeDevCommand": "pnpm dev",
+		"beforeBuildCommand": "pnpm build",
+		"frontendDist": "../build/",
+		"devUrl": "http://localhost:5173"
+	},
+	"bundle": {
+		"active": true,
+		"targets": ["deb", "nsis", "dmg"],
+		"windows": {
+			"digestAlgorithm": "sha256"
+		},
+		"icon": [
+			"icons/32x32.png",
+			"icons/128x128.png",
+			"icons/128x128@2x.png",
+			"icons/icon.icns",
+			"icons/icon.ico"
+		],
+		"category": "DeveloperTool"
+	},
+	"app": {
+		"windows": [
+			{
+				"label": "tauri-sveltekit-typescript-boilerplate",
+				"title": "tauri-sveltekit-typescript-boilerplate",
+				"width": 800,
+				"height": 600,
+				"resizable": true,
+				"contentProtected": false
+			}
+		],
+		"security": {
+			"csp": null
+		}
+	}
+}
