@@ -1,6 +1,6 @@
 ### Tauri SvelteKit TypeScript Boilerplate
 
-Minimalistic boilerplate for Tauri and SvelteKit projects in TypeScript.
+Boilerplate for Tauri and SvelteKit projects in TypeScript
 
 #### Prerequisites
 
@@ -98,4 +98,4 @@ Minimalistic boilerplate for Tauri and SvelteKit projects in TypeScript.
 
 #### License
 
-This project is under the MIT License. See [LICENSE](LICENSE) for details.
+[MIT](LICENSE)

@@ -1,6 +1,6 @@
 [package]
 name = "tauri-sveltekit-typescript-boilerplate"
-description = "Minimalistic boilerplate for Tauri and SvelteKit projects in TypeScript"
+description = "Boilerplate for Tauri and SvelteKit projects in TypeScript"
 version = "1.0.0"
 authors = [ "equilpres (Слава Соколов)" ]
 edition = "2021"
