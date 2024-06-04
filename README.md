@@ -36,10 +36,10 @@ Boilerplate for Tauri and SvelteKit projects in TypeScript
      pnpm dev
      ```
 
-- `tauri::dev`: Start Tauri.
+- `tauri:dev`: Start Tauri.
 
      ```bash
-     pnpm tauri::dev
+     pnpm tauri:dev
      ```
 
 - `build`: Build project.
@@ -48,10 +48,10 @@ Boilerplate for Tauri and SvelteKit projects in TypeScript
      pnpm build
      ```
 
-- `tauri::build`: Build Tauri.
+- `tauri:build`: Build Tauri.
 
      ```bash
-     pnpm tauri::build
+     pnpm tauri:build
      ```
 
 - `preview`: Preview prod build.

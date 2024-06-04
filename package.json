@@ -14,9 +14,9 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev --host ::",
-		"tauri::dev": "pnpm tauri dev",
+		"tauri:dev": "pnpm tauri dev",
 		"build": "pnpm sync && pnpm lint && vite build",
-		"tauri::build": "pnpm tauri build",
+		"tauri:build": "pnpm tauri build",
 		"preview": "vite preview --host ::",
 		"sync": "svelte-kit sync",
 		"svelte-check": "svelte-check",
