@@ -4,9 +4,9 @@ Boilerplate for Tauri and SvelteKit projects in TypeScript
 
 #### Prerequisites
 
-- [Node.js](https://nodejs.org/) (^18.18)
-- [pnpm](https://pnpm.io/) (^8.15)
-- [Rust](https://www.rust-lang.org/) (^1.77)
+- [Node.js](https://nodejs.org/) (^20.15)
+- [pnpm](https://pnpm.io/) (^9.4)
+- [Rust](https://www.rust-lang.org/) (^1.79)
 
 #### Getting Started
 

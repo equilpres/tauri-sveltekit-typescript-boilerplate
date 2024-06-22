@@ -4,7 +4,7 @@ description = "Boilerplate for Tauri and SvelteKit projects in TypeScript"
 version = "1.0.0"
 authors = [ "equilpres (Слава Соколов)" ]
 edition = "2021"
-rust-version = "1.77.1"
+rust-version = "1.79.0"
 
 [profile.release]
 opt-level = "z"
