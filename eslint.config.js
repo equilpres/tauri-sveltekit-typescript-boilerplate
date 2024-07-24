@@ -28,6 +28,12 @@ export default [
 		},
 	},
 	{
+		files: ['**/*.{ts,svelte}'],
+		rules: {
+			'@typescript-eslint/explicit-function-return-type': 'error',
+		},
+	},
+	{
 		ignores: ['.svelte-kit', 'build', 'src-tauri'],
 	},
 ];
